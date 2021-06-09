@@ -1,13 +1,18 @@
 p {
     font-family: sans-serif;
+    text-align: center
 }
 
 h1,h2,h3{
     font-family: sans-serif;
 }
 
-.menu{
-  
-    
-  
+header{
+text-align: center
 }
+
+*{
+    text-align: center;
+    background-color: grey;
+}
+
