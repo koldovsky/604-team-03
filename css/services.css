@@ -1,23 +1,10 @@
-
-.menu{ 
-    clear:none; 
-    position: 
-    absolute;
-     z-index: 100;
-     line-height:30px; 
-     height:5%;
-     margin:0;
-    right:0; 
-     
-    }
-
-
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Poppins:wght@300&display=swap%27');
 
 
 
 *{
     text-align: center;
-    background-color: rgba(83, 57, 230, 0.24);
+    background-color: rgba(202, 194, 226, 0.466);
 }
 
 div{
@@ -32,3 +19,35 @@ p {
     font-family: sans-serif;
     text-align: l
 }
+
+header .banner{
+    background-image: url();
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .menu{ 
+        clear:none; 
+        position: 
+        absolute;
+         z-index: 100;
+         line-height:30px; 
+         height:5%;
+         margin:0;
+        right:0; 
+         
+        }
+    
+    .banner{
+        display: block;
+        width: 198px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        
+    }
