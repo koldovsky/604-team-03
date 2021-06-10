@@ -1,0 +1,34 @@
+
+.menu{ 
+    clear:none; 
+    position: 
+    absolute;
+     z-index: 100;
+     line-height:30px; 
+     height:5%;
+     margin:0;
+    right:0; 
+     
+    }
+
+
+
+
+
+*{
+    text-align: center;
+    background-color: rgba(83, 57, 230, 0.24);
+}
+
+div{
+    text-align: center
+}
+
+h1,h2,h3{
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: l
+}
