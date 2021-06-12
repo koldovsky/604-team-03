@@ -1,53 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Poppins:wght@300&display=swap%27');
-
-
-
-*{
-    text-align: center;
-    background-color: rgba(202, 194, 226, 0.466);
-}
-
-div{
-    text-align: center
-}
-
-h1,h2,h3{
-    font-family: sans-serif;
-}
-
-p {
-    font-family: sans-serif;
-    text-align: l
-}
-
-header .banner{
-    background-image: url();
-    min-height: 400px;
+#home{
+    background-image: url(../img/img-about-us/header-background-img.jpg);
+    min-height: 750px;
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: right;
     flex-direction: column;
-    }
-
-    .menu{ 
-        clear:none; 
-        position: 
-        absolute;
-         z-index: 100;
-         line-height:30px; 
-         height:5%;
-         margin:0;
-        right:0; 
-         
-        }
-    
-    .banner{
-        display: block;
-        width: 198px;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        
-    }
+    filter: grayscale(100%);
+  }
+  
