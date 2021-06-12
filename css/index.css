@@ -1,61 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Poppins:wght@300&display=swap%27');
 
 .container{
-    max-width: 1200px;
-    margin:auto;
-}
-p {
-    font-family: 'Hind', sans-serif;
-    text-align: center;
-    color: #5d697e;
-}
-
-h1,
-h2,
-h3 {
-
-    font-family: 'Poppins', sans-serif;
-}
-
-header {
-    min-height: 400px;
+    background: rgb(137,137,186) url(images/background.jpg);
     background-size: cover;
-    background-position: center;
-    background-image: url(images/background.jpg);
+    font-size: 20px;
+    width: 100%;
+    height: 100vh;
+    padding-right: 8%;
+    padding-left: 8%;
+    box-sizing: border-box;
     
 }
 
-.title {
-    opacity: 0.6;
-    font-family: 'Poppins', sans-serif;
-    line-height: 35.2px;
-    text-align: center;
-
-}
-
-
-
-.menu {
-    clear: none;
-    position:
-        absolute;
-    z-index: 100;
-    line-height: 30px;
-    height: 5%;
-    margin: 0;
-    right: 0;
-    color: #ffffff;
-
-}
-
-
-.buttons {
+header nav u li{
+    list-style: none;
     display: inline-block;
-    position: relative;
-    max-width: 100%;
-    word-wrap: break-word;
+    margin-left: 60px;
 }
 
-.dark {
-    color: rgb(35, 54, 79);
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 12%;
+
 }
+nav{
+    flex: 1;
+    text-align: right;
+}
+.logo{
+width: 198px;
+height: 57px;
+
+}
+ nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.title{
+    font-size: 59px;
+    text-align: center;
+    padding-top: 8%;
+    line-height: 0.5px;
+
+}
+
