@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Poppins:wght@300&display=swap%27');
 
 .container{
-    background: rgb(137,137,186) url(images/background.jpg);
+    background: linear-gradient(0deg, rgba(49, 49, 88, 0.767), rgba(39, 39, 61, 0.644)), url(images/background.jpg) repeat;
     background-size: cover;
     font-size: 20px;
     width: 100%;
@@ -11,11 +11,31 @@
     box-sizing: border-box;
     
 }
-
-header nav u li{
+h1,h2,h3{
+    font-family: 'Hind', sans-serif;
+}
+header nav ul li{
     list-style: none;
     display: inline-block;
     margin-left: 60px;
+    color: blueviolet;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul li::after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #be11e0;
+    transition: width .3s ease-in-out;
+}
+nav ul li:hover{
+    color: plum;
+
+}
+nav ul li:hover:after,
+nav ul li:focus:after {
+    width: 50%;
 }
 
 .navbar{
@@ -27,6 +47,7 @@ header nav u li{
 nav{
     flex: 1;
     text-align: right;
+ 
 }
 .logo{
 width: 198px;
@@ -46,10 +67,21 @@ nav ul li a{
 }
 
 .title{
-    font-size: 59px;
-    text-align: center;
+    letter-spacing: 0;
+    font-size: 86px;
     padding-top: 8%;
-    line-height: 0.5px;
+    color:#fff;
+    text-align: center;
+    font-weight: 800;
+    line-height: 0%;
 
 }
 
+.button_content{
+    display: inline-block;
+    max-width: 100%;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
