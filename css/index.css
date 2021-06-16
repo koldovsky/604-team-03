@@ -70,23 +70,41 @@ nav ul li a {
   font-size: 18px;
 }
 
-.title {
-  letter-spacing: 0;
+.text_header {
   font-size: 86px;
   padding-top: 8%;
   color: #fff;
   text-align: center;
   font-weight: 800;
-  line-height: 0%;
+  font-family: "Poppins", sans-serif;
+
+}
+.p_header{
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  
+}
+.leftimg{
+  display: block;
+  width: 100%;
+  float:left; 
+  margin: 7px 7px 7px 0;
+}
+.container_header{
+  font-size: 20px;
+  width: 100%;
+  height: 100vh;
+  padding-right: 8%;
+  padding-left: 8%;
+  box-sizing: border-box;
 }
 
-.button_header {
+.butt {
   position: absolute;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
-}
-.butt {
   border: 3px solid plum;
   font-size: 30px;
   color: plum;
@@ -128,4 +146,14 @@ nav ul li a {
 main {
   text-align: center;
   justify-content: center;
+}
+.blocks{
+  background-image: url(images/bg.png);
+  display: flex;
+  width: 100%;
+}
+
+.bg{
+  display: grid;
+  grid-template-columns: 1fr fr;
 }
