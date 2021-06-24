@@ -6,8 +6,32 @@
     display: flex;
     align-items: right;
     flex-direction: column;
+
+    main {
+      text-align: center;
+      justify-content: center;
+    }
     
 
   }
+  .text_Services {
+    font-size: 86px;
+    padding-top: 8%;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+  
+  }
+  
+
+.leftimg{
+  display: block;
+  width: 75%;
+  float:left; 
+  margin: 7px 7px 7px 0;
+}
+
+
   
   
