@@ -27,6 +27,7 @@ header nav ul li {
     margin-left: 60px;
     color: blueviolet;
     font-family: "Poppins", sans-serif;
+    cursor: pointer;
 }
 
 nav ul li::after {
