@@ -62,6 +62,7 @@ position: absolute;
  text-decoration: none; 
 }
 .Text-content{
+  text-align: center;
   font-size: 20px;
   color: #5d697e;
 }
