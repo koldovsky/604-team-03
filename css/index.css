@@ -85,12 +85,6 @@ nav ul li a {
   font-family: "Poppins", sans-serif;
   
 }
-.leftimg{
-  display: block;
-  width: 100%;
-  float:left; 
-  margin: 7px 7px 7px 0;
-}
 .container_header{
   font-size: 20px;
   width: 100%;
@@ -143,17 +137,30 @@ nav ul li a {
 .butt:hover::after {
   left: 0;
 }
-main {
-  text-align: center;
-  justify-content: center;
-}
+
+
 .blocks{
-  background-image: url(images/bg.png);
-  display: flex;
+  background: url(images/bg.png);
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.bg{
+.container_text{
   display: grid;
-  grid-template-columns: 1fr fr;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
 }
+
+.leftimg{
+  width: 100%;
+  display: block;
+ 
+}
+
+.serv{
+  text-align: center;
+} 
