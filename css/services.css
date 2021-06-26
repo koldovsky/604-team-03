@@ -51,4 +51,17 @@ padding: 300px;
 }
 .registr{
   background-color: ghostwhite;
+position: absolute;
+
+
+}
+.Abandon-Chaos{
+ color: #141414;
+ font-family: Poppins,sans-serif;
+ font-weight: 700;
+ text-decoration: none; 
+}
+.Text-content{
+  font-size: 20px;
+  color: #5d697e;
 }
