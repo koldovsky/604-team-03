@@ -9,7 +9,7 @@
     url(images/background.jpg) repeat;
   background-size: cover;
   font-size: 20px;
-  width: 100%;
+  max-width: 100%;
   height: 100vh;
   padding-right: 8%;
   padding-left: 8%;
@@ -29,6 +29,9 @@ header nav ul li {
 }
 p {
   font-family: "Hind", sans-serif;
+}
+.container_title{
+  line-height: 64.9px;
 }
 nav ul li::after {
   display: block;
@@ -158,9 +161,77 @@ nav ul li a {
 .leftimg{
   width: 100%;
   display: block;
+  float:left; 
  
 }
 
 .serv{
   text-align: center;
 } 
+
+.about_container{
+  padding-top: 30px;
+  text-align: center;
+}
+.zagolovok{
+  color: #23364f;
+  font-size: 35px;
+  line-height: 45px;
+  font-family: "Poppins", sans-serif;
+}
+.center_text{
+  color: #5d697e;
+  font-size: 19px;
+}
+
+.photo1{
+  padding: 50px ;
+  object-fit: cover ;
+}
+
+.provide{
+  text-decoration: none;
+  color: #a23aa2;
+}
+.services{
+  background: url(images/bg.png);
+  width: 100%;
+  background-size: cover;
+}
+.zagolovok2{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.exp{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.m_text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background: url(images/bg2.png);
+}
+.d_text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  background: url(images/bg3.png);
+}
+.t_text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  background: url(images/bg2.png);
+}
+
+.container_g{
+  background-image: url(images/background2.png);
+  width: 100%;
+}

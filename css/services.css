@@ -6,14 +6,14 @@
     display: flex;
     align-items: right;
     flex-direction: column;
-
+}
     main {
       text-align: center;
       justify-content: center;
     }
     
 
-  }
+
   .text_Services {
     font-size: 86px;
     padding-top: 8%;
