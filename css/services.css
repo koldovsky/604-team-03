@@ -6,7 +6,8 @@
     display: flex;
     align-items: right;
     flex-direction: column;
-}
+
+    }
     main {
       text-align: center;
       justify-content: center;
@@ -46,15 +47,16 @@
 }
 .w-selection{
 padding: 200px;
-background:linear-gradient(90deg, rgba(248, 118, 148, 0.96) 0%, rgba(162, 58, 162, 0.96) 100%)
+background:linear-gradient(90deg, rgba(248, 118, 148, 0.96) 0%, rgba(162, 58, 162, 0.96) 100%);
+min-height: 750px;
 
 }
 .registr{
   background-color: ghostwhite;
 position: absolute;
 
-
 }
+
 .Abandon-Chaos{
  color: #141414;
  font-family: Poppins,sans-serif;
