@@ -1,0 +1,14 @@
+#social .fa {
+    padding-top: 8px ;
+    margin-top: 8px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: gray;
+}
+
