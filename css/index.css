@@ -30,7 +30,7 @@ header nav ul li {
 p {
   font-family: "Hind", sans-serif;
 }
-.container_title{
+.container_title {
   line-height: 64.9px;
 }
 nav ul li::after {
@@ -80,15 +80,13 @@ nav ul li a {
   text-align: center;
   font-weight: 800;
   font-family: "Poppins", sans-serif;
-
 }
-.p_header{
+.p_header {
   text-align: center;
   color: #fff;
   font-family: "Poppins", sans-serif;
-  
 }
-.container_header{
+.container_header {
   font-size: 20px;
   width: 100%;
   height: 100vh;
@@ -141,8 +139,7 @@ nav ul li a {
   left: 0;
 }
 
-
-.blocks{
+.blocks {
   background: url(images/bg.png);
   width: 100%;
   display: flex;
@@ -152,109 +149,170 @@ nav ul li a {
   padding-right: 10px;
 }
 
-.container_text{
+.container_text {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 50px;
 }
-
-.leftimg{
+.first_text {
+  margin-top: 145px;
+}
+.leftimg {
   width: 100%;
   display: block;
-  float:left; 
- 
+  float: left;
 }
 
-.serv{
+.serv {
   text-align: center;
-} 
+}
 
-.about_container{
+.about_container {
   padding-top: 30px;
   text-align: center;
 }
-.zagolovok{
+.zagolovok {
   color: #23364f;
   font-size: 35px;
   line-height: 45px;
   font-family: "Poppins", sans-serif;
 }
-.center_text{
+.center_text {
   color: #5d697e;
   font-size: 19px;
 }
 
-.photo1{
-  padding: 50px ;
-  object-fit: cover ;
+.photo1 {
+  padding: 50px;
+  object-fit: cover;
 }
 
-.provide{
+.provide {
   text-decoration: none;
   color: #a23aa2;
 }
-.services{
+.services {
   background: url(images/bg.png);
   width: 100%;
   background-size: cover;
 }
-.zagolovok2{
+.zagolovok2 {
   text-align: center;
   padding-top: 50px;
 }
 
-.exp{
+.exp {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.m_text{
-  
+.m_text {
   justify-content: center;
   text-align: center;
   width: 100%;
   margin: 10px;
   padding: 15px;
-  background: #ccc;
+  background: rgb(228, 118, 200);
   border-radius: 15px;
-  width: 250px;
-  height: 220px;
+  width: 300px;
+  height: 250px;
 }
-.d_text{
-  
+.d_text {
   flex-direction: row;
   justify-content: center;
   text-align: center;
   margin: 10px;
   padding: 15px;
-  background: #ccc;
+  background: rgb(96, 88, 146);
   border-radius: 15px;
-  width: 250px;
-  height: 220px;
+  width: 300px;
+  height: 250px;
 }
-.t_text{
- 
-  
+.t_text {
   justify-content: center;
   text-align: center;
   margin: 10px;
   padding: 15px;
-  background: pink;
+  background: rgb(228, 94, 194);
   border-radius: 10px;
-  width: 250px;
-  height: 220px;
+  width: 300px;
+  height: 250px;
 }
 
-.container_g{
+.container_g {
   background-image: url(images/background2.png);
   width: 100%;
   background-position: cover;
+  height: 100vh;
 }
 
-.m_container{
+.m_container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
-  padding-left: 170px;
+  padding-left: 190px;
+  margin-top: 300px;
+}
+
+.z-text-container {
+  background: linear-gradient(
+      0deg,
+      rgba(49, 49, 88, 0.767),
+      rgba(39, 39, 61, 0.644)
+    ),
+    url(images/bg4.png) repeat;
+  height: 490px;
+}
+.z-text-wrapper {
+  text-align: center;
+}
+z-text-main {
+  display: grid;
+}
+.z-text-numbers{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.x-main-container{
+  background-image: url(images/pink_bg.png);
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  font-size: 36px;
+}
+.x-text-wrapper{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Abandon-Chaos{
+  font-size: 86px;
   
+
+  color: #fff;
+  text-align: center;
+  
+  
+}
+.Text-content{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 20px;
+  color: #5d697e;
+}
+
+.w-selection-end{
+  padding: top 3px;
+  background: #55759e;
+     
+}
+.w-text-content{
+  font-size: 18px;
+  font-family: Hind,sans-serif;
+  color: #aec2eb;
+}
+.menu_footer{
+  font-size: 18px;
+  line-height: normal;
+  color: #fff;  
 }

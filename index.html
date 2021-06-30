@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="icon" href="img/icon.png">
+    
     <title>Strategic Management Website </title>
 </head>
 
@@ -43,9 +44,10 @@
                 <div class="container_text">
                     <div class="photo1">
             <img src="img/illustration.jpg" class="leftimg"  alt="illustration"> </div>
-            <p>Upgrowth Company offers strategic management services for your <br> company with a strong focus on your business and your staff: where you <br> are today and where you aim to be tomorrow. <br> <br>
-                We overview your organization, strategies and human resources <br> objectively. Meeting with key managers, we listen to their concerns, get <br> acquainted with the current system and procedures, develop an <br> individual plan and determine the stages of the implementation.  </p>
-            <a class="butt" href="contacts.html">Contact us</a>
+            <p class="first_text">Upgrowth Company offers strategic management services for your <br> company with a strong focus on your business and your staff: where you <br> are today and where you aim to be tomorrow. <br> <br>
+                We overview your organization, strategies and human resources <br> objectively. Meeting with key managers, we listen to their concerns, get <br> acquainted with the current system and procedures, develop an <br> individual plan and determine the stages of the implementation. 
+                <div class="button_container">
+                <a class="button_container" href="contacts.html">Contact us</a> </p></div>
         </div>
         </div>
             </form>
@@ -105,16 +107,22 @@
         </div>
         </section>
         <section>
-            <h2>Our Results in Numbers</h2>
-            <p>We are proud of our achievements</p>
-            <p>150+ Satisfied Clients</p>
-            <p>300+ Successful Projects</p>
-            <p>20 proffesionals</p>
-            <p>5 industry awards</p>
+            <div class="z-text-container">
+            <h2 class="z-text-wrapper">Our Results in Numbers</h2>
+            <p class="z-text-wrapper">We are proud of our achievements</p>
+            <div class="z-container-main">
+            <p class="z-text-numbers">150+ Satisfied Clients</p>
+            <p class="z-text-numbers">300+Successful Projects</p>
+            <p class="z-text-numbers">20proffesionals</p>
+            <p class="z-text-numbers">5 industry awards</p>
+        </div>
+        </div>
         </section>
         <section>
-            <h2>Boost your business with a strategy!</h2>
-            <p>Hit the button and receive strategy management consulting for your business or product.</p>
+            <div class="x-main-container"
+            <h2 class="x-text-wrapper">Boost your business with a strategy!</h2>
+            <p class="x-text-wrapper">Hit the button and receive strategy management consulting for your business or product.</p>
+            <button>Send a Request</button>
         </div>
         </section>
         <section>
@@ -275,42 +283,74 @@
         </div>
     </main>
     <footer>
-        <h2>Abandon Chaos!</h2>
-        <p>Fill out the form to get the primary consultation on your business opportunities.</p>
-        <form action="formspree" method="post"> </form>
-        <label>
-            <input type="text" name="user-name" placeholder="Full name">
-        </label>
-        <form action="formspree" method="post"> </form>
-        <label>
-            <input type="text" name="phone-number" placeholder="Phone number">
-        </label>
-        <label>
-            <input type="email" name="user-email" placeholder="E-mail">
-        </label>
-        <label>
-            <input type="text" name="message" placeholder="Type your message">
-        </label>
-        <input type="submit">
-        <p>Upgrowth Company offers strategic management services for your company with a strong focus on your business.
-        </p>
-        <p>© Created by</p>
-        <div class="menu">
-            <a href="about-us.html">About us</a>
-            <a href="services.html">Services</a>
-            <a href="projects.html">Projects</a>
-            <a href="contacts.html">Contacts</a>
-        </div>
-        <p> Subscribe to get the latest news</p>
-        <label>
-            <input type="email" name="user-email" placeholder="Email*">
-        </label>
-        <form>
-            <input type="button" value="Send a request">
-        </form>
-        <p>All rights Reserved</p>
-    </footer>
-    <script src="js/clock.js"></script>
+        <div class="w-selection">        
+            <div class="registr">
+
+           <script src="js/clock.js"></script>
+           
+           <p class="Abandon-Chaos">Abandon Chaos</p>
+           
+           <span class="Text-content">Fill out the form to get the primary consultation on your business opportunities.</span>
+           
+           
+
+           <div class="form-floating mb-3">
+               <input type="text" class="form-control" id="floatingInput" placeholder="Full name">
+               <label for="floatingInput">Full Name</label>
+             </div>
+             <div class="form-floating mb-3">
+               <input type="text" class="form-control" id="floatingInput" placeholder="phone-number">
+               <label for="floatingInput">Phone-number</label>
+             </div>
+
+             <div class="form-floating mb-3">
+               <input type="email" class="form-control" id="floatingInput" placeholder="mik.uz.dj@gmail.com">
+               <label for="floatingInput">Email address</label>
+             </div>
+             <div class="d-grid gap-2 col-6 mx-auto">
+               <button class="btn btn-primary" type="button">Send a request
+               </button>
+               
+             </div>
+           
+       </div>
+   </div>
+</main>
+   <footer>
+  
+   <div class="w-selection-end">
+       <a class="banner" href="index.html">
+           <img src="img/img-about-us/logoaboutus.webp" width="200" alt="logo">
+       </a>
+       <div class="logo"></div>
+       <div class="menu_footer">
+           <div class="about-us">
+               <a href="about-us.html">About us</a>
+           </div>
+               <div class="services.html">
+                <a href="services.html">Services</a>
+               </div>
+               <div class="projects.html">
+                 <a href="projects.html">Projects</a>
+               </div>
+               <div class="contacts.html">
+               <a href="contacts.html">Contacts</a>
+           </div>
+       </div> 
+
+           <span class ="w-text-content" >Upgrowth Company offers strategic management services for your company with a strong focus on your business.</span>
+           <p>© Created by</p>
+           <p>Subscribe to get the latest news</p>
+           <label>
+               <input type="email" name="user-email" placeholder="Email*">
+           </label>
+           <form>
+               <input type="button" value="Send a request">
+           </form>
+           <p>All rights Reserved</p>
+       </footer>
+       <script src="js/clock.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 
 </html>
