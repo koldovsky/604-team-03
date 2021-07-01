@@ -48,7 +48,6 @@
 .w-selection{
 padding: 300px;
 
-
 background:linear-gradient(90deg, rgba(248, 118, 148, 0.96) 0%, rgba(162, 58, 162, 0.96) 100%);
 min-height: 750px;
 
@@ -57,6 +56,7 @@ min-height: 750px;
 .registr{
   background-color: ghostwhite;
 position: absolute;
+
 
 }
 
@@ -92,4 +92,9 @@ position: absolute;
   font-size: 18px;
   line-height: normal;
   color: #fff;  
+  display: flex;
+  
+}
+.btn btn-primary{
+  background-color :coral;
 }
