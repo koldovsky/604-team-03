@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="icon" href="img/icon.png">
     
@@ -17,12 +18,10 @@
                 <a href="index.html"><img src="img/img-about-us/logoaboutus.webp" class="logo" alt="logo"></a>
                 <nav>
                     <ul>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <li><a class="nav-link active" aria-current="page" href="about-us.html">About us</li></a>
-                            <li><a class="nav-link" href="services.html">Services</li></a>
-                            <li><a class="nav-link" href="projects.html">Projects</li></a>
-                            <li> <a class="nav-link" href="contacts.html">Contacts</li></a>
+                            <li><a href="about-us.html">About us</li></a>
+                            <li><a href="services.html">Services</li></a>
+                            <li><a href="projects.html">Projects</li></a>
+                            <li><a href="contacts.html">Contacts</li></a>
                             <p class="clock" > </p> 
                         </div>
                     </ul>
@@ -183,7 +182,7 @@
             <p>We propose complex programs that include a set of needed features and <br> services.</p>
         </section>
         <section>
-            <h2 class="dark">Featured Clients</h2>
+            <h2 class="r-w">Featured Clients</h2>
             <div class="clients">
                 <img src="img/featured-clients/microsoft.png" width="200" alt="microsoft">
                 <img src="img/featured-clients/intel.png" width="200" alt="intel">
@@ -220,6 +219,7 @@
             </form>
         </section>
         <section>
+            <div class="c-background">
             <h2>Pricing</h2>
             <h3>Basic</h3>
             <p>1500$ per month</p>
@@ -239,6 +239,7 @@
                 Competency alignments <br>
                 Dedicated strategy manager</p>
             <button>Select plan</button>
+        </div>
         </section>
         <section>
 
@@ -272,15 +273,36 @@
             <button>All Posts</button>
         </article>
 
-        <h2 class="dark">Partners</h2>
-        <div class="Partners">
-            <img src="img/partners/netflix.png" width="200" alt="netflix">
-            <img src="img/partners/world-travel-market.png" width="200" alt="world-travel-market">
-            <img src="img/partners/youtube.png" width="200" alt="youtube">
-            <img src="img/partners/booking.png" width="200" alt="booking">
-            <img src="img/partners/global-passenger-network.png" width="200" alt="global-passenger-network">
-            <img src="img/partners/oracle.png" width="200" alt="oracle">
-        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/partners/netflix.png" class="d-block w-30" alt="netflix">
+              </div>
+              <div class="carousel-item">
+                <img src="img/partners/world-travel-market.png" class="d-block w-30" alt="world-travel-market>
+              </div>
+              <div class="carousel-item">
+                <img src="img/partners/youtube.png" class="d-block w-30" alt="youtube">
+              </div>
+              <div class="carousel-item">
+                <img src="img/partners/booking.png" class="d-block w-30" alt="booking">
+              </div>
+              <div class="carousel-item">
+                <img src="img/partners/global-passenger-network.png" class="d-block w-30" alt="global-passenger-network">
+              </div>
+              <div class="carousel-item">
+                <img src="img/partners/oracle.png" class="d-block w-30" alt="oracle">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </main>
     <footer>
         <div class="w-selection">        

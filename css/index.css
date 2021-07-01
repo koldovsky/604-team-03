@@ -57,6 +57,7 @@ nav ul li:focus:after {
 nav {
   flex: 1;
   text-align: right;
+  margin-top: 40px;
 }
 .logo {
   width: 198px;
@@ -315,4 +316,18 @@ z-text-main {
   font-size: 18px;
   line-height: normal;
   color: #fff;  
+}
+.clients{
+  text-align: center;
+}
+
+.r-w{
+  text-align: center;
+}
+
+.c-background{
+  background: url(images/pink_bg2.png);
+  width: 100%;
+  height: 400px;
+
 }
