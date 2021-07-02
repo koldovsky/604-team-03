@@ -32,6 +32,7 @@ p {
 }
 .container_title {
   line-height: 64.9px;
+  margin-top: 120px;
 }
 nav ul li::after {
   display: block;
@@ -212,32 +213,32 @@ nav ul li a {
   text-align: center;
   width: 100%;
   margin: 10px;
-  padding: 15px;
-  background: rgb(228, 118, 200);
-  border-radius: 15px;
+  color: #fff;
+  padding: 50px;
+  background: url(images/bg2.png);
   width: 300px;
-  height: 250px;
+  height: 320px;
 }
 .d_text {
   flex-direction: row;
   justify-content: center;
   text-align: center;
+  color: #fff;
   margin: 10px;
-  padding: 15px;
-  background: rgb(96, 88, 146);
-  border-radius: 15px;
+  padding: 50px;
+  background: url(images/bg3.png);
   width: 300px;
-  height: 250px;
+  height: 320px;
 }
 .t_text {
   justify-content: center;
   text-align: center;
   margin: 10px;
-  padding: 15px;
-  background: rgb(228, 94, 194);
-  border-radius: 10px;
+  color: #fff;
+  padding: 50px;
+  background: url(images/bg2.png);
   width: 300px;
-  height: 250px;
+  height: 320px;
 }
 
 .container_g {
@@ -286,37 +287,60 @@ z-text-main {
   margin-top: 50px;
 }
 
-.Abandon-Chaos{
-  font-size: 86px;
+.w-selection{
+  padding: 300px;
   
+  background:linear-gradient(90deg, rgba(248, 118, 148, 0.96) 0%, rgba(162, 58, 162, 0.96) 100%);
+  min-height: 750px;
+  
+  
+  }
+  .registr{
+    background-color: ghostwhite;
+  position: absolute;
+  
+  
+  }
+  
+    
+  
+  .Abandon-Chaos{
+    font-size: 50px;
+    font-family: Hind,sans-serif;
+  
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+    
+  }
+  .Text-content{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: #5d697e;
+  }
+  
+  .w-selection-end{
+    padding: top 3px;
+    background: #55759e;
+       
+  }
+  .w-text-content{
+    font-size: 18px;
+    font-family: Hind,sans-serif;
+    color: #aec2eb;
+  }
+  .menu_footer{
+    font-size: 18px;
+    line-height: normal;
+    color: #fff;  
+    display: flex;
+    
+  }
+  .btn{
+    background-color :rgb(240, 88, 220);
+  }
 
-  color: #fff;
-  text-align: center;
-  
-  
-}
-.Text-content{
-  margin-top: 100px;
-  text-align: center;
-  font-size: 20px;
-  color: #5d697e;
-}
-
-.w-selection-end{
-  padding: top 3px;
-  background: #55759e;
-     
-}
-.w-text-content{
-  font-size: 18px;
-  font-family: Hind,sans-serif;
-  color: #aec2eb;
-}
-.menu_footer{
-  font-size: 18px;
-  line-height: normal;
-  color: #fff;  
-}
 .clients{
   text-align: center;
 }
@@ -329,5 +353,7 @@ z-text-main {
   background: url(images/pink_bg2.png);
   width: 100%;
   height: 400px;
-
+}
+.d-block w-50{
+width: 100%;
 }
