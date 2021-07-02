@@ -95,6 +95,6 @@ position: absolute;
   display: flex;
   
 }
-.btn btn-primary{
-  background-color :coral;
+.btn{
+  background-color :rgb(240, 88, 220);
 }
