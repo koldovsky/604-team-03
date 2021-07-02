@@ -1,120 +1,166 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Poppins:wght@300&display=swap%27');
-
 :root {
-    font-family: "Poppins", sans-serif;
-    font-family: "Hind", sans-serif;
-    --header-color:white;
-    --main-color: black;
-
+	font-family: "Poppins", sans-serif;
+	font-family: "Hind", sans-serif;
+	--header-color: white;
+	--main-color: black;
 }
 
 body {
-    max-width: 980px;
-    min-width: 320px;
-    margin: auto;
+	max-width: 980px;
+	min-width: 320px;
+	margin: auto;
 }
 
 header nav {
-    display: flex;
+	display: flex;
 }
 
-header nav .banner{
-    background-color: rgba(0, 0, 0, 0);
+header nav .banner {
+	background-color: rgba(0, 0, 0, 0);
 }
 
 header nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 60px;
-    color: blueviolet;
-    font-family: "Poppins", sans-serif;
-    cursor: pointer;
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+	margin-top: 20px;
+	color: blueviolet;
+	font-family: "Poppins", sans-serif;
+	cursor: pointer;
 }
 
 nav ul li::after {
-    display: block;
-    content: "";
-    height: 2px;
-    width: 0%;
-    background-color: #be11e0;
-    transition: width 0.3s ease-in-out;
+	display: block;
+	content: "";
+	height: 2px;
+	width: 0%;
+	background-color: #be11e0;
+	transition: width 0.3s ease-in-out;
 }
 
-  nav ul li:hover {
-    color: plum;
+nav ul li:hover {
+	color: plum;
 }
 
-  nav ul li:hover:after,
-  nav ul li:focus:after {
-    width: 50%;
+nav ul li:hover:after,
+nav ul li:focus:after {
+	width: 50%;
 }
 
 nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 60px;
-  }
-  nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-  }
-
-#home{
-  background-image:url(../img/img-about-us/header-background-img.jpg);
-  min-height: 400px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
 }
 
-
-header .title{
-  justify-content: center;
-  font-size: 72px;
-  margin-top: 100px;
-  color: var(--header-color);
-  background-color: rgba(0, 0, 0, 0);
-}
-#main nav {
-  display: flex;
-  flex-direction: row;
-  margin-top: 60px;
-  margin-left: 30px;
-  margin-right: 30px;
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
 }
 
-.team-photo{
-  max-width: 11cm;
-  max-height: 7.2cm;
-  margin-right: 40px;
-  
+#home {
+	background-image: url(../img/img-about-us/header-background-img.webp);
+	min-height: 400px;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
-#main main div p{
-  display: block;
+header .title {
+	justify-content: center;
+	font-size: 72px;
+	margin-top: 100px;
+	color: var(--header-color);
+	background-color: rgba(0, 0, 0, 0);
 }
-main div p{
-  font-size: 18px;
-  line-height: 1.61;
-  color: #5d697e;
-  padding-right: 80px;
-  font-family: "Hind", sans-serif;
+
+.main-text-and-photo {
+	display: flex;
+	flex-direction: row;
+	margin-top: 60px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.team-photo {
+	max-width: 11cm;
+	max-height: 7.2cm;
+	margin-right: 20px;
+}
+
+.main-bg-c p {
+	display: block;
+}
+
+.main-bg-c p {
+	font-size: 18px;
+	line-height: 1.61;
+	color: #5d697e;
+	padding-right: 80px;
+	font-family: "Hind", sans-serif;
 }
 
 .follow {
-margin-left: 30px;
+	margin-left: 30px;
 }
+
 #social {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
-#social .follow{
-  font-weight: bold;
+
+#social .follow {
+	font-weight: bold;
+	color: rgb(35, 54, 79);
 }
-#main .main-bg-color{
-  background-color: #f8f9fd;
-  padding-top: 1px;
+
+main .main-bg-c {
+	background-color: #f8f9fd;
+	padding-top: 1px;
+}
+
+.managment-h {
+	text-align: center;
+	font-weight: 700;
+	font-size: 39px;
+	color: rgb(35, 54, 79);
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+#management {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2vw;
+	margin-left: 30px;
+}
+
+#management h2 {
+	text-align: center;
+	color: rgb(35, 54, 79);
+	font-size: 27px;
+	font-weight: 700;
+	margin-right: 60px;
+}
+
+#management h3 {
+	font-weight: 700;
+	color: #5d697e;
+	text-align: center;
+	font-size: 14px;
+	margin-right: 60px;
+}
+
+#management p {
+	text-align: center;
+	font-size: 18px;
+	margin-right: 60px;
+	line-height: 29px;
+	font-weight: 400;
+	color: rgb(93, 105, 126);
 }
