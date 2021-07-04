@@ -105,41 +105,41 @@ nav ul li a {
   display: block;
   text-align: center;
   transition: 0.5s;
-	box-shadow:inset 0px 1px 0px 0px #c72095;
-	background:linear-gradient(to bottom, #dbbccd 5%, #d90978 100%);
-	background-color:#dbbccd;
-	border-radius:6px;
-	border:2px solid #ee1eb5;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:16px;
-	font-weight:bold;
-	padding:5px 25px;
-	text-decoration:none;
-	text-shadow:0px 0px 0px #c70067;
+  box-shadow: inset 0px 1px 0px 0px #c72095;
+  background: linear-gradient(to bottom, #dbbccd 5%, #d90978 100%);
+  background-color: #dbbccd;
+  border-radius: 6px;
+  border: 2px solid #ee1eb5;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 25px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #c70067;
 }
 .butt:hover {
-	background:linear-gradient(to bottom, #d90978 5%, #dbbccd 100%);
-	background-color:#d90978;
+  background: linear-gradient(to bottom, #d90978 5%, #dbbccd 100%);
+  background-color: #d90978;
 }
 .butt:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
-
-        
-
 
 .blocks {
   background: url(images/bg.png);
   width: 100%;
+  height: 900px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 8%;
+  padding-right: 8%;
+  margin-top: -60px;
+ 
 }
 
 .container_text {
@@ -170,8 +170,8 @@ nav ul li a {
   line-height: 45px;
   font-family: "Poppins", sans-serif;
 }
-.underline{
-  color:#be11e0;
+.underline {
+  color: #be11e0;
 }
 .center_text {
   color: #5d697e;
@@ -237,7 +237,7 @@ nav ul li a {
 
 .container_g {
   background-image: url(images/background2.png);
-  width: 100%;
+  max-width: 1219px;
   background-position: cover;
   height: 100vh;
 }
@@ -258,102 +258,104 @@ nav ul li a {
     ),
     url(images/bg4.png) repeat;
   height: 490px;
-  
 }
 .z-text-wrapper {
-  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 z-text-main {
   display: grid;
 }
-.z-text-numbers{
+.z-text-numbers {
   display: flex;
-   flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-around;
- 
 }
-.x-main-container{
+.x-main-container {
   background-image: url(images/pink_bg.png);
   width: 100%;
   height: 300px;
   text-align: center;
   font-size: 36px;
 }
-.x-text-wrapper{
+.x-text-wrapper {
   text-align: center;
   margin-top: 50px;
 }
 
-.w-selection{
+.w-selection {
   padding: 300px;
-  
-  background:linear-gradient(90deg, rgba(248, 118, 148, 0.96) 0%, rgba(162, 58, 162, 0.96) 100%);
+
+  background: linear-gradient(
+    90deg,
+    rgba(248, 118, 148, 0.96) 0%,
+    rgba(162, 58, 162, 0.96) 100%
+  );
   min-height: 750px;
-  
-  
-  }
-  .registr{
-    background-color: ghostwhite;
+}
+.registr {
+  background-color: ghostwhite;
   position: absolute;
-  
-  
-  }
-  
-    
-  
-  .Abandon-Chaos{
-    font-size: 50px;
-    font-family: Hind,sans-serif;
-  
-    color: rgb(0, 0, 0);
-    text-align: center;
-    
-    
-  }
-  .Text-content{
-    margin-top: 100px;
-    text-align: center;
-    font-size: 20px;
-    color: #5d697e;
-  }
-  
-  .w-selection-end{
-    padding: top 3px;
-    background: #55759e;
-       
-  }
-  .w-text-content{
-    font-size: 18px;
-    font-family: Hind,sans-serif;
-    color: #aec2eb;
-  }
-  .menu_footer{
-    font-size: 18px;
-    line-height: normal;
-    color: #fff;  
-    display: flex;
-    
-  }
-  .btn{
-    background-color :rgb(240, 88, 220);
-  }
+}
 
-.clients{
+.Abandon-Chaos {
+  font-size: 50px;
+  font-family: Hind, sans-serif;
+
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.Text-content {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 20px;
+  color: #5d697e;
+}
+
+.w-selection-end {
+  padding: top 3px;
+  background: #55759e;
+}
+.w-text-content {
+  font-size: 18px;
+  font-family: Hind, sans-serif;
+  color: #aec2eb;
+}
+.menu_footer {
+  font-size: 18px;
+  line-height: normal;
+  color: #fff;
+  display: flex;
+}
+.btn {
+  background-color: rgb(240, 88, 220);
+}
+
+.clients {
   text-align: center;
 }
 
-.r-w{
+.r-w {
   text-align: center;
 }
 
-.c-background{
+.c-background {
   background: url(images/pink_bg2.png);
   width: 100%;
   height: 400px;
 }
-.d-block w-50{
-width: 100%;
+.d-block w-50 {
+  width: 100%;
+}
+
+.v-background-container{
+  background-image: url(images/bg5.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.text-v{
+  text-align: center;
 }
