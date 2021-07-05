@@ -237,7 +237,7 @@ nav ul li a {
 
 .container_g {
   background-image: url(images/background2.png);
-  max-width: 1219px;
+  width: 100%;
   background-position: cover;
   height: 100vh;
 }
@@ -358,4 +358,57 @@ z-text-main {
 }
 .text-v{
   text-align: center;
+}
+
+#testimonials {
+  background-color: grey;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  text-align: center;
+}
+
+#testimonials h2, #news h2 {
+  color: var(--dark-grey);
+  font-size: 90%;
+}
+
+#testimonials .title, #news .title {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.white-text {
+  color: whitesmoke
+}
+
+#testimonialsCarousel {
+  background-color: white;;
+}
+
+#testimonials .carousel-item {
+  padding: 3%;
+}
+
+#testimonials img {
+  max-width: 50%;
+}
+
+#testimonials .custo
+
+
+mer {
+  color: var(--dark-grey);
+  font-size: larger;
+}
+
+#testimonials div.carousel-item p:first-of-type {
+  
+  font-style: italic;
+}
+
+.numbers {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

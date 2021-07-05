@@ -1,5 +1,6 @@
 #home{
-    background-image: url(../img/img-about-us/header-background-img.jpg);
+      
+  background-image: url(../img/img-about-us/header-background-img.webp);
     min-height: 750px;
     background-size: cover;
     background-position: center;
@@ -11,10 +12,14 @@
     main {
       text-align: center;
       justify-content: center;
+      
     }
     
-
-
+    .navbar-light{
+      color: darkorchid;
+    }
+    
+    
   .text_Services {
     font-size: 86px;
     padding-top: 8%;
@@ -93,8 +98,16 @@ position: absolute;
   line-height: normal;
   color: #fff;  
   display: flex;
-  
 }
+  
+
+
+
 .btn{
   background-color :rgb(240, 88, 220);
 }
+.bg-light{
+  background-color: black;
+}
+
+
