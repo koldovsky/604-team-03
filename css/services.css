@@ -15,8 +15,11 @@
       
     }
     
+    .navbar-light{
+      color: darkorchid;
+    }
     
-
+    
   .text_Services {
     font-size: 86px;
     padding-top: 8%;
@@ -95,7 +98,10 @@ position: absolute;
   line-height: normal;
   color: #fff;  
   display: flex;
+}
   
+
+
 }
 .btn{
   background-color :rgb(240, 88, 220);
@@ -103,3 +109,5 @@ position: absolute;
 .bg-light{
   background-color: black;
 }
+
+
