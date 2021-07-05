@@ -12,9 +12,10 @@
     main {
       text-align: center;
       justify-content: center;
+      
     }
     
-
+    
 
   .text_Services {
     font-size: 86px;
@@ -98,4 +99,7 @@ position: absolute;
 }
 .btn{
   background-color :rgb(240, 88, 220);
+}
+.bg-light{
+  background-color: black;
 }
