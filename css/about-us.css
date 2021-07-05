@@ -164,3 +164,84 @@ main .main-bg-c {
 	font-weight: 400;
 	color: rgb(93, 105, 126);
 }
+
+.values{
+	background-image: url(../img/img-about-us/body-background-img.webp);
+	min-height: 766px;
+	background-size: cover;
+	background-position: center;
+	margin-top: 80px
+}
+.values-bg-color{
+	display: flex;
+	flex-direction: column;
+	color: rgb(174, 194, 235);
+	display: grid;
+	
+}
+.values h1 {
+	color: white;
+	font-size: 39px;
+	margin-top: 110px;
+	margin-left: 90px;
+	font-family: "Popins", sans-serif;
+	font-weight: 700;	
+}
+.values p{
+	font-size: 21.3px;
+	margin-right: 540px;
+	margin-left: 90px;
+	margin-top: 30px;
+	font-family: "Hind", sans-serif;
+	font-weight: 700;
+}
+.careers{
+	display: flex;
+	flex-direction: row;
+	margin-left: 30px;
+	
+}
+
+.careers-h1 {
+	margin-top: 90px;
+	margin-left: 30px;
+	font-weight: 800;
+
+}
+.careers-p {
+	font-size: 20px;
+	margin-top: 30px;
+	font-family: "Hind", sans-serif;
+	font-weight: 600;
+	margin-right: 500px;
+	margin-left: 30px;
+	color: rgb(93, 105, 126);
+}
+.careers-img{
+	margin-left: 480px;
+	margin-top: -240px;
+}
+.tra{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	margin-top: -110px;
+}
+
+.tra img{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.tra p{
+	margin-top: 10px;
+	margin-left: -350px;
+	margin-right: 500px;
+	color: rgb(35, 54, 79);
+	font-size: 25px;
+	font-weight: 700;
+
+}
+
+footer{
+	margin-top: 200px;
+}
