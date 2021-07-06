@@ -7,7 +7,6 @@
  transition: 0.5s;
  background-size: 200% auto;
  color: white;            
- box-shadow: 0 0 20px #eee;
  border-radius: 10px;
  display: inline-block;
  cursor: pointer;
@@ -19,4 +18,7 @@
  color: #fff;
  text-decoration: none;
  }
+ .btn-grad-f{
+	padding: 12px 36px ;
+}
          
